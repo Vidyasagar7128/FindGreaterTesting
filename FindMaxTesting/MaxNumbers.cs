@@ -6,9 +6,9 @@ namespace FindMaxTesting
 {
     class MaxNumbers
     {
-        public float DoubleSwaps(float one,float two, float three)
+        public String StringSwaps(String one,String two, String three)
         {
-            Console.WriteLine("Floats Values : ");
+            Console.WriteLine("String Values : ");
             if(one.CompareTo(two) > 0 && one.CompareTo(three) > 0 ||
                one.CompareTo(two) >= 0 && one.CompareTo(three) > 0 ||
                one.CompareTo(two) > 0 && one.CompareTo(three) >= 0)
