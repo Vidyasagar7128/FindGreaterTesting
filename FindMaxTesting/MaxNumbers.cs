@@ -6,8 +6,9 @@ namespace FindMaxTesting
 {
     class MaxNumbers
     {
-        public int IntSwaps(int one,int two, int three)
+        public float DoubleSwaps(float one,float two, float three)
         {
+            Console.WriteLine("Floats Values : ");
             if(one.CompareTo(two) > 0 && one.CompareTo(three) > 0 ||
                one.CompareTo(two) >= 0 && one.CompareTo(three) > 0 ||
                one.CompareTo(two) > 0 && one.CompareTo(three) >= 0)
