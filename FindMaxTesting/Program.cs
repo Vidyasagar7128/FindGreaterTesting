@@ -8,9 +8,7 @@ namespace FindMaxTesting
         {
             Console.WriteLine("Find Maximum Numbers Between Three Numbers!");
             MaxNumbers maxNumbers = new MaxNumbers();
-            maxNumbers.MaxInt();
-            maxNumbers.Show();
-            maxNumbers.Swaps();
+            Console.WriteLine(maxNumbers.IntSwaps(10, 30, 20));
         }
     }
 }
