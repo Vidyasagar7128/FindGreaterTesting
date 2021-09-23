@@ -6,24 +6,17 @@ namespace FindMaxTesting
 {
     class MaxNumbers
     {
-        public String StringSwaps(String one,String two, String three)
+        public static dynamic CheckData<datatype>(datatype one, datatype two, datatype three) where datatype : IComparable
         {
-            Console.WriteLine("String Values : ");
-            if(one.CompareTo(two) > 0 && one.CompareTo(three) > 0 ||
-               one.CompareTo(two) >= 0 && one.CompareTo(three) > 0 ||
-               one.CompareTo(two) > 0 && one.CompareTo(three) >= 0)
+            if (one.CompareTo(two) > 0 && one.CompareTo(three) > 0)
             {
                 return one;
             }
-            if (two.CompareTo(one) > 0 && two.CompareTo(three) > 0 ||
-               two.CompareTo(one) >= 0 && two.CompareTo(three) > 0 ||
-               two.CompareTo(one) > 0 && two.CompareTo(three) >= 0)
+            if (two.CompareTo(one) > 0 && two.CompareTo(three) > 0)
             {
                 return two;
             }
-            if (three.CompareTo(one) > 0 && three.CompareTo(two) > 0 ||
-               three.CompareTo(one) >= 0 && three.CompareTo(two) > 0 ||
-               three.CompareTo(one) > 0 && three.CompareTo(two) >= 0)
+            if (three.CompareTo(one) > 0 && three.CompareTo(one) > 0)
             {
                 return three;
             }
