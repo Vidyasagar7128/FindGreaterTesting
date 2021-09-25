@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace FindMaxTesting
 {
-    class MaxNumbers
+    public class MaxNumbers
     {
         public static dynamic CheckData<datatype>(datatype one, datatype two, datatype three) where datatype : IComparable
         {

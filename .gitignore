@@ -3,3 +3,4 @@ bin/
 obj/
 FindMaxTesting.csproj
 FindMaxTesting.sln
+TestResults/
